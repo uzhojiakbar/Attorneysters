@@ -1,0 +1,75 @@
+.cards {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    gap: 2.9%;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 30%;
+    height: 350px;
+    background-color: #1F2732;
+    padding: 50px 30px 20px 50px;
+    display: grid;
+    justify-content: space-between;
+    transition: .3s ease-in-out;
+}
+
+.card:hover{
+    z-index: 99999999;
+    transform: scale(1.1);
+    box-shadow: 0 0  30px #2f3742;
+}
+
+.card2 {
+    margin-top: 2.9%;
+}
+
+.card2:nth-last-child(1){
+    margin-bottom: 150px;
+}
+.card-title {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+
+.card-info {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    margin-bottom: 10px;
+    color: #D7D7D7;
+    border-bottom: 1px solid #4E555F;
+}
+
+.card-btnpage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.vwh {
+    background: #161D27;
+    padding: 10px 45px;
+    color: #fff;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+}
+
+.card:hover .vwh:hover{
+    background: #161d2785;
+}

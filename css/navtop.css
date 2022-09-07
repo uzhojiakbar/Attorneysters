@@ -1,0 +1,33 @@
+.nav-top {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navtop__btn {
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0px;
+    padding: 24px 70px;
+}
+
+.navtop__btn:hover {
+    background: rgba(255, 255, 255, 0.243);
+}
+
+
+.navtop__btn:active {
+    background: rgba(255, 255, 255, 0.508);
+}
+
+.navtop__btn_link {
+    text-decoration: none;
+}

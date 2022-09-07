@@ -1,0 +1,110 @@
+.support-form {
+    height: 900px;
+    width: 1360px;
+    margin: 0 auto;
+    background-image: url(../img/background-inputs.png);
+    display: flex;
+    align-items: center;
+}
+
+
+.forms {
+    width: 90%;
+    height: 80%;
+    background: #1F2732;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.forms form {
+    width: 80%;
+}
+
+
+.input-form {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 40%;
+    color: white;
+    height: 40px;
+    border-bottom: 2px solid #3B434E;
+    margin-top: 70px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+
+.input-form::placeholder {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+
+.input-tt {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    height: 40px;
+    border-bottom: 2px solid #3B434E;
+    margin-top: 70px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    resize: none;
+    width: 80%;
+    height: 120px;
+}
+
+.input-tt::placeholder {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+
+
+.ahref-input {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    width: 30%;
+    height: 10%;
+    display: flex;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+    color: #3B434E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.ahref-input:hover {
+    color: #fff;
+    background-color: #3B434E;
+}
+.ahref-input:active {
+    background-color: #404750;
+}

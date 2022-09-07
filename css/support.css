@@ -1,0 +1,137 @@
+.sectionleft {
+    flex: 1;
+}
+
+.sectionright {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.sectoin-right-con {
+    height: 100%;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rigght-sec3-con {
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border: 15px solid #D7D7D7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.section3-main {
+    width: 90%;
+    padding: 50px 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.support-title {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.support-info {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    color: #D7D7D7;
+}
+
+.support-title-right {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 55px;
+    letter-spacing: 0.4px;
+    color: #1F2732;
+}
+
+.support-about-right {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #909090;
+}
+
+.call-support {
+    color: #909090;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 0 5px 0 5px;
+}
+
+.logo-phone {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #D1B06B; */
+}
+
+
+.call-support:hover {
+    background-color: #D1B06B;
+    color: white;
+}
+
+
+.logo-phone i {
+    font-size: 27px;
+}
+
+.suport-n-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+    color: #1F2732;
+}
+
+
+.call-number-support {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 42px;
+    letter-spacing: 0.4px;
+    color: #1F2732;
+}
+
+.call-support:hover .suport-n-title{
+    color: white;
+}
+
+.call-support:hover .call-number-support{
+    color: white;
+}
+
+.call-support:hover .logo-phone{
+    background-color: #D1B06B;
+    color:#fff ;
+}

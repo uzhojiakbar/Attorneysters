@@ -1,0 +1,127 @@
+footer {
+    width: 1360px;
+    padding: 50px 0;
+    background-color: #1F2732;
+    min-height: 70vh;
+    margin: 0 auto;
+
+}
+
+.footer {
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    height: 80%;
+}
+
+.logo-foooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.logo-foooter img {
+    width: 30%;
+}
+
+
+.footer-main {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    color: white;
+    justify-content: center;
+    gap: 50px;
+    grid-template-columns: 30% 20% 20% 30%;
+}
+
+.footer-link {
+    border-bottom: 2px solid #3B434E;
+    border-top: 2px solid #3B434E;
+    margin-bottom: 20px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 39px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    padding: 12px 0;
+}
+
+
+.footer-links-container {
+    display: grid;
+    gap: 60px;
+    grid-template-columns: 25% 17% 17% 30%;
+}
+
+.quicklink-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-lnk {
+    display: grid;
+}
+
+.left-link-item {}
+
+.right-lnk {
+    display: grid;
+
+}
+
+.right-link-item {}
+
+.link-footer-style {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    width: 100%;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    color: rgba(215, 215, 215, 0.777);
+}
+
+
+
+.link-footer-style:hover {
+    color: #D7D7D7;
+}
+
+.link-footer-style:active {
+    color: #fff;
+}
+
+.urility-page-container {}
+
+
+
+.contact-us-con2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.invalid:hover {
+    background-color: transparent;
+    display: block;
+    background-color: transparent;
+    width: 100%;
+    color: transparent;
+}
+
+
+.invalid,
+.invalid:active{
+    display: block;
+    background-color: transparent;
+    width: 100%;
+    color: transparent;
+}

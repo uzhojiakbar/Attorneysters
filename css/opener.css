@@ -1,0 +1,96 @@
+.opener {
+    display: flex;
+    padding: 0 50px;
+    height: 550px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.left {
+    flex: 2;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.detal_opener {
+    margin-top: 80px;
+}
+
+.opener-title {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    margin-top: 12px;
+}
+
+.opener_description {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    letter-spacing: 0.4px;
+    color: #D1B06B;
+    margin-top: 21px;
+    line-height: 40px;
+}
+
+.btn-opener {
+    padding: 25px 71px;
+    background: #D1B06B;
+    margin-top: 25px;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+}
+
+.btn-opener:hover {
+    background: #161d2781;
+    border: 1px solid white;
+}
+
+
+.btn-opener:hover .opener-btn {
+    color: white;
+}
+
+.btn-opener:active {
+    background: #161d27e9;
+    border: 1px solid white;
+}
+
+
+.btn-opener:active .opener-btn {
+    color: white;
+}
+
+
+.opener-btn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #1F2732;
+
+}
+
+
+.right {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.me_opener {
+    width: 500px;
+}
